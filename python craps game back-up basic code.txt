@@ -3,12 +3,22 @@ import random
 # this is the name
 userName = input("Please enter your name: ")
 print("")
-print("Hi", userName)
+print("Hello", userName)    #add a welcome to the game and game rules
+print("Welcome to this game of Craps!")
+print("")
+print("Here are the rules:")
+print("")
+print("The game is played with two dice. First, you make a bet, then you roll the dice. On the first roll, if the number rolled equals a 7 or an 11, you win! But if that number equals a 2, 3, or, 12, you lose. Otherwise you move on to the second round")
+print("")
+print("The second round is played by rolling the dice intill either the number you rolled in the first round appears again (in which case, you win!) or a 7 appears (in which case, you lose.)")
+print("")
+
+play = str(input("would you like to play? yes or no:  ")).capitalize()   #asking if they want to play
 
 wallet = int(input("How much money will you gamble with today?  "))
 print("wallet  ",wallet)
 print("")
-play = str(input("would you like to play? yes or no:  ")).capitalize()   #asking if they want to play
+
 
 while play != "No":     #game running as long as they say yes
   bet = int(input("how much would you like to wager?    "))
