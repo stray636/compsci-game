@@ -67,6 +67,4 @@ while play != "No":     #game running as long as they say yes
 print ("goodbye")
 
 
-
-
 #add - a bet vs how much in wallet calculator, a "you are broke" game stop, a win vs loss calculator that either laughs at you or congradulates you, 
